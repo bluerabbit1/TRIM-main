@@ -1,5 +1,5 @@
 """
-Trainer for Node Classification (Temporal-Motif) with T-IRM
+Trainer for Node Classification (Temporal-Motif) with Trim
 ============================================================
 """
 
@@ -99,7 +99,7 @@ class NC_Motif_Trainer(object):
 
         per_step_loss = torch.stack(per_step_loss)
 
-        # === T-IRM: mean + λ * variance ===
+        # === Trim: mean + λ * variance ===
         task_loss = per_step_loss.mean()
         tirm_penalty = per_step_loss.var()
 

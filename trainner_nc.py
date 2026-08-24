@@ -1,5 +1,5 @@
 """
-Trainer for Node Classification (Aminer) with T-IRM
+Trainer for Node Classification (Aminer) with TRIM
 ====================================================
 """
 

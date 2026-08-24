@@ -1,11 +1,4 @@
-"""
-Trainer for Link Prediction with Temporal Invariant Risk Minimization (T-IRM)
-=============================================================================
-Core idea: treat each training timestep as a distinct "environment".
-Minimize mean task loss + λ * variance of per-timestep losses.
-This forces the model to perform uniformly across all timesteps,
-preventing overfitting to distribution-specific patterns.
-"""
+
 
 import time
 import torch
