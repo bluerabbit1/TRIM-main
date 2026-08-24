@@ -1,0 +1,12 @@
+# Install a CUDA-compatible PyTorch build first; see README.md.
+torch>=1.12
+torch-geometric>=2.3
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.2
+pandas>=1.5
+tqdm>=4.65

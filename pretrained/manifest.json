@@ -1,0 +1,31 @@
+{
+  "format_version": 1,
+  "checkpoints": [
+    {
+      "file": "collab_st_attn_trim.pt",
+      "sha256": "5205d12e635e350bfe5ef4466d329b5638ded5f40784fb1bc4e2af1f1b7919c3",
+      "dataset": "collab",
+      "task": "link prediction",
+      "architecture": "st_attn",
+      "seed": 0,
+      "structural_layers": 1,
+      "temporal_layers": 1,
+      "heads": 4,
+      "hidden_dimension": 32,
+      "trim_lambda": 1.0
+    },
+    {
+      "file": "aminer_st_attn_trim.pt",
+      "sha256": "fcd30d3598300ac39915faf8744f3b13b40a0686b284fac9a0a1919a5b30bda2",
+      "dataset": "Aminer",
+      "task": "node classification",
+      "architecture": "st_attn",
+      "seed": 0,
+      "structural_layers": 1,
+      "temporal_layers": 1,
+      "heads": 8,
+      "hidden_dimension": 128,
+      "trim_lambda": 10.0
+    }
+  ]
+}

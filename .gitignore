@@ -1,0 +1,27 @@
+# Python and editor files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Data and generated experiment artefacts
+data/*
+!data/README.md
+outputs/
+logs/
+log/
+revision_results/
+*.log
+
+# Large binary artefacts not explicitly curated under pretrained/
+*.pt
+*.pth
+*.ckpt
+!pretrained/*.pt
